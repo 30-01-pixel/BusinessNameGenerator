@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Name Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Business Name Generator</h1>
+        <p class="subtitle">Create unique business names by combining different word categories</p>
+        <div class="generator">
+            <div class="result-box">
+                <h2 id="businessName">Your Business Name</h2>
+            </div>
+            <button id="generateBtn">Generate Name</button>
+            
+            <div class="options">
+                <div class="option-column">
+                    <h3>Adjectives</h3>
+                    <div id="adjectiveOptions">
+                        <div><input type="checkbox" id="adj1" value="Crazy" checked> <label for="adj1">Crazy</label></div>
+                        <div><input type="checkbox" id="adj2" value="Amazing" checked> <label for="adj2">Amazing</label></div>
+                        <div><input type="checkbox" id="adj3" value="Fire" checked> <label for="adj3">Fire</label></div>
+                    </div>
+                </div>
+                
+                <div class="option-column">
+                    <h3>Shop Name</h3>
+                    <div id="shopOptions">
+                        <div><input type="checkbox" id="shop1" value="Engine" checked> <label for="shop1">Engine</label></div>
+                        <div><input type="checkbox" id="shop2" value="Foods" checked> <label for="shop2">Foods</label></div>
+                        <div><input type="checkbox" id="shop3" value="Garments" checked> <label for="shop3">Garments</label></div>
+                    </div>
+                </div>
+                
+                <div class="option-column">
+                    <h3>Another Word</h3>
+                    <div id="wordOptions">
+                        <div><input type="checkbox" id="word1" value="Bros" checked> <label for="word1">Bros</label></div>
+                        <div><input type="checkbox" id="word2" value="Limited" checked> <label for="word2">Limited</label></div>
+                        <div><input type="checkbox" id="word3" value="Hub" checked> <label for="word3">Hub</label></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
